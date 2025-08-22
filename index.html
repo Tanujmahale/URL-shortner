@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=copy_all" />
+   
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔗</text></svg>">
+    
+    <title>URL Shortener</title>
+</head>
+<body>
+     <div class="main">
+        <p>URL Shortener</p>
+        <input type="text" placeholder="Enter the Link Here" id="longurl">
+        <button id="shorten">Shorten</button><br>
+        <input type="text" placeholder="Short Link" id="shorturl">
+        <button id="copy">
+           <span class="material-symbols-outlined">copy_all</span>
+        </button>
+        <div id="message"></div>
+    </div>
+    <script src="logic.js"></script>
+    <script src="copy.js"></script>
+</body>
+</html>
